@@ -1,0 +1,50 @@
+
+.dropdown-toggle { 
+  cursor: pointer;
+}
+
+#navbarsExampleDefault {
+  flex-basis: auto;
+}
+
+.search-bar {
+  width: auto;
+}
+
+#navbarsExampleDefault .nav-link {
+  --pad: 14px;
+  padding-left: var(--pad);
+  padding-right: var(--pad);
+  position: relative;
+}
+
+#navbarsExampleDefault .fa-shopping-cart {
+  font-size: 24px;
+}
+
+#navbarsExampleDefault .badge{
+  right: 0px;
+  font-size: 11px;
+  padding: 3px 4px;
+  border-radius: 10px;
+  top: 3px;
+  position: absolute;
+}
+
+
+.search-results {
+  width: 350px;
+  position: absolute;
+  top: 42px;
+}
+.search-results img {
+  object-fit: cover;
+}
+
+.search-results .price {
+  width: 46px;
+}
+
+.search-results li {
+  padding: 4px 10px;
+}
